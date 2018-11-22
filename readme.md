@@ -8,6 +8,8 @@
 	<a href="https://github.com/laravelcollective/html">laravelcollective/html</a><br>
 <p>
 
+## Comandos básicos
+
 <p>Este pacote permite que os usuários sejam associados a Permission e Roles. Cada Role está associada a várias Permissions. A Role e a Permission são modelos Eloquent regulares. Eles exigem um name e podem ser criados assim:</p>
 <p>Ex: $role = Role::create(['name' => 'writer']);<br>
 	$permission = Permission::create(['name' => 'edit articles']);</p>
@@ -53,3 +55,12 @@ Adicionando uma Permission para um Role<br>
 $permission = Permission::create(['name' => 'write post']);<br>
 $role = Role::findById(1);<br>
 $role->givePermissionTo($permission);</p><br>
+
+## Extras
+<p align="center">
+	<a href="https://www.youtube.com/watch?v=zIgYJlu03bI&list=PLe30vg_FG4OQKaLJodH9E8htPvfj7jamt&index=1">Spatie Laravel Permission Package Tutorial (Playlist)</a><br>
+	<a href="https://scotch.io/tutorials/user-authorization-in-laravel-54-with-spatie-laravel-permission">User Authorization in Laravel 5.4 with Spatie Laravel-Permission</a><br>
+<p>
+
+## Atenciosamente
+<h2>Diego Feitosa de Oliveira</h2>
