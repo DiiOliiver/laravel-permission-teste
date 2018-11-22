@@ -62,5 +62,5 @@ $role->givePermissionTo($permission);</p><br>
 	<a href="https://scotch.io/tutorials/user-authorization-in-laravel-54-with-spatie-laravel-permission">User Authorization in Laravel 5.4 with Spatie Laravel-Permission</a><br>
 <p>
 
-## Atenciosamente
+<h3>Atenciosamente</h3>
 <h2>Diego Feitosa de Oliveira</h2>
