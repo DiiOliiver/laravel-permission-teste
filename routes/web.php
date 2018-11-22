@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/nomes', 'HomeController@nome')->name('nome')->middleware('role:admin');
+Route::get('/animes', 'HomeController@anime')->name('anime');
+Route::get('/jogos', 'HomeController@jogo')->name('jogo');
